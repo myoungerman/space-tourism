@@ -31,13 +31,22 @@ in case there is an exception (ex. an <h2> element that needs the styling of hea
   color: #D0D6F9;
 }
 
+:global(.subheading--2) {
+  font-size: 0.778rem;
+  letter-spacing: 2.35px;
+}
+
 :global(body) {
   font-size: 18px;
   font-family: 'Barlow Condensed', sans-serif;
   color: #FFFFFF;
+  background-color: #0B0D17;
+  width: 1440px;
 }
 
-:global(.subheading--2) {
-  font-size: 0.778rem;
-  letter-spacing: 2.35px;
+.App__NavBar {
+  margin-left: 55px;
+  margin-top: 40px;
+  position: absolute;
+  z-index: 2;
 }

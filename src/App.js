@@ -1,10 +1,12 @@
 import styles from './App.module.css';
+import NavBar from './components/NavBar';
+import IntroScreen from './components/IntroScreen';
 
 function App() {
   return (
     <div className="App">
-      <p className="heading--5">title</p>
-      <p>text</p>
+      <NavBar className={styles['App__NavBar']} />
+      <IntroScreen></IntroScreen>
     </div>
   );
 }

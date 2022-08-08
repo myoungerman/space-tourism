@@ -1,0 +1,14 @@
+.IntroScreen {
+    width: inherit;
+}
+
+.IntroScreen__img {
+    position: absolute;
+
+}
+
+img {
+    width: 2085.04px;
+    height: 954px;
+    mix-blend-mode: screen;
+}
