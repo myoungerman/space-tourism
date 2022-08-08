@@ -1,0 +1,43 @@
+:global(.heading--1, .heading--2, .heading--3, .heading--4, .subheading--1) {
+  font-family: 'Bellefair', serif;
+}
+
+/* Instead of adding styles directly to h1, h2, etc, I created these classes
+in case there is an exception (ex. an <h2> element that needs the styling of heading 3)
+*/
+
+:global(.heading--1) {
+  font-size: 8.333rem;
+}
+
+:global(.heading--2) {
+  font-size: 5.556rem;
+}
+
+:global(.heading--3) {
+  font-size: 3.111rem;
+}
+
+:global(.heading--4) {
+  font-size: 1.778rem;
+}
+
+:global(.heading--5) {
+  letter-spacing: 4.75px;
+}
+
+:global(.heading--5, .subheading--1) {
+  font-size: 1.556rem;
+  color: #D0D6F9;
+}
+
+:global(body) {
+  font-size: 18px;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #FFFFFF;
+}
+
+:global(.subheading--2) {
+  font-size: 0.778rem;
+  letter-spacing: 2.35px;
+}
