@@ -1,14 +1,59 @@
 .IntroScreen {
     width: inherit;
+    position: relative;
 }
 
 .IntroScreen__img {
     position: absolute;
-
 }
 
-img {
+.img--background {
     width: 2085.04px;
     height: 954px;
     mix-blend-mode: screen;
 }
+
+.text-container {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.IntroScreen__text-div {
+    position: relative;
+    top: 387px;
+    left: 165px;
+}
+
+.IntroScreen__text--no-top-and-bottom-margin {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.IntroScreen__large-word {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.IntroScreen__button {
+    position: absolute;
+    top: 495px;
+    left: 1001px;
+}
+
+button {
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    text-decoration: none;
+    border: none;
+
+/*     transition: all 1s ease;
+    transform: scale(1); */
+}
+
+/* button:hover {
+    background-color: aqua;
+    transform: scale(1.645);
+} */
+

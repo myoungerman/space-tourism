@@ -1,4 +1,9 @@
-:global(.heading--1, .heading--2, .heading--3, .heading--4, .subheading--1) {
+:global(.heading--1), :global(.heading--2), :global(.heading--3), :global(.heading--4),
+:global(.heading--5), :global(.subheading--1), :global(.subheading--2) {
+  text-transform: uppercase;
+}
+
+:global(.heading--1), :global(.heading--2), :global(.heading--3), :global(.heading--4), :global(.subheading--1) {
   font-family: 'Bellefair', serif;
 }
 
@@ -26,7 +31,7 @@ in case there is an exception (ex. an <h2> element that needs the styling of hea
   letter-spacing: 4.75px;
 }
 
-:global(.heading--5, .subheading--1) {
+:global(.heading--5), :global(.subheading--1) {
   font-size: 1.556rem;
   color: #D0D6F9;
 }
@@ -42,6 +47,10 @@ in case there is an exception (ex. an <h2> element that needs the styling of hea
   color: #FFFFFF;
   background-color: #0B0D17;
   width: 1440px;
+}
+
+:global(.img--contain) {
+  object-fit: contain;
 }
 
 .App__NavBar {
