@@ -13,8 +13,13 @@
     color: #FFFFFF;
 }
 
-.numbered-button:hover {
+.numbered-button:active {
     background-color: #FFFFFF;
     border: 1px solid #0B0D17;
     color: #0B0D17;
+}
+
+.numbered-button:hover {
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
 }

@@ -14,10 +14,10 @@ export default function TechCard(props) {
                 <ButtonSlider className={`${styles['TechCard__ButtonSlider']}`} />
                 <div className={`${styles['TechCard__text']}`}>
                     <p className={`${styles['intro-text-before-header']} ${styles['TechCard__intro-text']} blue`}>THE TERMINOLOGY…</p>
-                    <h1 className={`${styles['TechCard__header--main']} heading--3 not-bold`}>LAUNCH VEHICLE</h1>
-                    <p className={`${styles['TechCard__description']} blue`}>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+                    <h1 className={`${styles['TechCard__header--main']} heading--3 not-bold ${styles.header}`}>LAUNCH VEHICLE</h1>
+                    <p className={`${styles['TechCard__description']} ${styles.description} blue`}>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
                 </div>
-                <div>
+                <div className={`${styles.img} ${styles['TechCard__img-container']}`}>
                     <img src="https://i.postimg.cc/BZmMFXnL/launch-vehicle.png" alt="Spacecraft launch vehicle"></img>
                 </div> 
             </section>
