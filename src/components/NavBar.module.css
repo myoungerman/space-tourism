@@ -3,10 +3,6 @@
     height: 48px;
 }
 
-.bold {
-    font-weight: bold;
-}
-
 .line {
     height: 1px;
     background: #979797;
@@ -35,27 +31,6 @@
    padding: 39px 165px 38px 123px;
 }
 
-.nav--link {
-    font-size: 0.889rem;
-    letter-spacing: 2.7px;
-    position: relative;
-    text-decoration: none;
-}
-
-.nav--link::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
+.nav--main > a::before {
     bottom: -35px;
-    left: 0;
-    background-color: #979797;
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
 }
-
-.nav--link:hover::before {
-    transform: scaleX(1);
-}
-

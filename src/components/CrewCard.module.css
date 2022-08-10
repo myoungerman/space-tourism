@@ -1,0 +1,32 @@
+.CrewCard__content {
+    display: flex;
+}
+
+.CrewCard__text {
+    margin-top: 154px;
+    margin-right: 20px;
+}
+
+.text-container {
+    width: 614px;
+}
+
+.description {
+    width: 444px;
+    line-height: 32px;
+}
+
+.CrewCard__header--secondary {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.CrewCard__header--main {
+    margin-top: 0px;
+    margin-bottom: 27px;
+}
+
+.CrewCard__description {
+    margin-top: 0px;
+    margin-bottom: 120px;
+}

@@ -1,0 +1,8 @@
+.no-top-bottom-margin {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.CardHeader__span {
+    margin-left: 24px;
+}

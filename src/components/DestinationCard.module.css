@@ -1,5 +1,93 @@
+.DestinationCard {
+    display: flex;
+}
+
+.DestinationCard__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.DestinationCard__section--planet-details {
+    padding-top: 98px;
+    margin-left: 157px;
+}
+
+.DestinationCard__header--main {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.DestinationCard__header--planet-name {
+    margin-top: 37px;
+    margin-bottom: 14px;
+}
+
+.section--planet-img {
+    width: 508.5px;
+}
+
+.section--planet-details {
+    width: 445px;
+}
+
 .planet-img-container {
     width: 445px;
     height: 445px;
 }
 
+.DestinationCard__img {
+    margin-left: 66.5px;
+    margin-top: 97px;
+}
+
+.subnav {
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    height: 34px;
+    align-items: start;
+}
+
+.subnav > a {
+    color: #D0D6F9;
+}
+
+.subnav > a::before {
+    bottom: -12px;
+}
+
+.paragraph {
+    line-height: 32px;
+    color: #D0D6F9;
+}
+
+.DestinationCard__paragraph {
+    margin-top: 0px;
+    margin-bottom: 54px;
+}
+
+.line {
+    height: 1px;
+    background: #383B4B;
+    width: 100%;
+}
+
+.DestinationCard__trip-details {
+    margin-top: 28px;
+    display: flex;
+    justify-content: start;
+}
+
+.DestinationCard__detail--header {
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.DestinationCard__distance {
+    margin-right: 79px;
+}
+
+.DestinationCard__detail--body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

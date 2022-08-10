@@ -1,56 +1,11 @@
-:global(.heading--1), :global(.heading--2), :global(.heading--3), :global(.heading--4),
-:global(.heading--5), :global(.subheading--1), :global(.subheading--2) {
-  text-transform: uppercase;
-}
 
-:global(.heading--1), :global(.heading--2), :global(.heading--3), :global(.heading--4), :global(.subheading--1) {
-  font-family: 'Bellefair', serif;
-}
-
-/* Instead of adding styles directly to h1, h2, etc, I created these classes
-in case there is an exception (ex. an <h2> element that needs the styling of heading 3)
-*/
-
-:global(.heading--1) {
-  font-size: 8.333rem;
-}
-
-:global(.heading--2) {
-  font-size: 5.556rem;
-}
-
-:global(.heading--3) {
-  font-size: 3.111rem;
-}
-
-:global(.heading--4) {
-  font-size: 1.778rem;
-}
-
-:global(.heading--5) {
-  letter-spacing: 4.75px;
-}
-
-:global(.heading--5), :global(.subheading--1) {
-  font-size: 1.556rem;
-  color: #D0D6F9;
-}
-
-:global(.subheading--2) {
-  font-size: 0.778rem;
-  letter-spacing: 2.35px;
-}
-
-:global(body) {
+body {
   font-size: 18px;
   font-family: 'Barlow Condensed', sans-serif;
   color: #FFFFFF;
   background-color: #0B0D17;
   width: 1440px;
-}
-
-:global(.img--contain) {
-  object-fit: contain;
+  margin: 0;
 }
 
 .App__NavBar {
@@ -58,4 +13,9 @@ in case there is an exception (ex. an <h2> element that needs the styling of hea
   margin-top: 40px;
   position: absolute;
   z-index: 2;
+}
+
+.App__cards {
+  padding-top: 212px;
+  margin-left: 166px;
 }
