@@ -1,3 +1,32 @@
 .TechCard__content {
     display: flex;
 }
+
+.intro-text-before-header {
+    font-size: 0.889rem;
+    letter-spacing: 2.7px;
+}
+
+.TechCard__text {
+    margin-left: 80px;
+    margin-top: 137px;
+}
+
+.TechCard__ButtonSlider {
+    margin-top: 137px;
+}
+
+.TechCard__header--main {
+    margin-top: 11px;
+    margin-bottom: 17px;
+}
+
+.TechCard__intro-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.TechCard__description {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
