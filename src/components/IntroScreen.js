@@ -4,7 +4,7 @@ import styles from './IntroScreen.module.css';
 export default function IntroScreen() {
     return (
         <div className={styles.IntroScreen}>
-            <img src="https://svgshare.com/i/ju3.svg" alt='Earth' className={`${styles['IntroScreen__img']} ${styles['img--background']}`}></img>
+            {/* <img src="https://svgshare.com/i/ju3.svg" alt='Earth' className={`${styles['IntroScreen__img']} ${styles['img--background']}`}></img> */}
             <div className={`${styles['text-container']} ${styles['IntroScreen__text-div']}`}>
                 <p className={`heading--5 blue ${styles['IntroScreen__text--no-top-and-bottom-margin']}`}>So, you want to travel to</p>
                 <p className={`heading--1 ${styles['IntroScreen__large-word']}`}>Space</p>
