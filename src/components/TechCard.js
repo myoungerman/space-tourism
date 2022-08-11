@@ -5,7 +5,7 @@ import ButtonSlider from "./ButtonSlider";
 
 export default function TechCard(props) {
     return (
-        <main className={props.className}>
+        <main className={`${props.className} ${styles.TechCard}`}>
             <CardHeader
             number="03"
             title="Space Launch 101"
