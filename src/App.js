@@ -9,8 +9,8 @@ function App() {
   return (
     <div className={styles.App}>
       <NavBar className={styles['App__NavBar']} />
-      <IntroScreen></IntroScreen>
-      {/* <DestinationCard className={styles['App__cards']} /> */}
+      {/* <IntroScreen></IntroScreen> */}
+      <DestinationCard className={styles['App__cards']} />
       {/* <CrewCard className={styles['App__cards']} /> */}
       {/* <TechCard className={styles['App__cards']} /> */}
     </div>

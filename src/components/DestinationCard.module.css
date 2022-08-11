@@ -30,6 +30,10 @@
     width: 445px;
 }
 
+.planet-img {
+    width: 100%;
+}
+
 .planet-img-container {
     width: 445px;
     height: 445px;
@@ -90,4 +94,64 @@
 .DestinationCard__detail--body {
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+/*//////////////
+Tablet styles
+/////////////*/
+
+@media screen and (max-width: 768px) {
+.DestinationCard {
+    flex-direction: column;
+    align-items: center;
+}
+
+.DestinationCard__section {
+    align-items: center;
+    width: 573px;
+}
+
+.DestinationCard__section h1 {
+    position: relative;
+    left: -187px;
+}
+
+.DestinationCard__section--planet-details {
+    margin-left: 0px;
+    margin-bottom: 62px;
+    padding-top: 53px;
+}
+
+.DestinationCard__trip-details {
+    width: inherit;
+    justify-content: center;
+    text-align: center;
+}
+
+.DestinationCard__img {
+    margin-top: 60px;
+    margin-left: 0px;
+}
+
+.DestinationCard__paragraph {
+    margin-bottom: 49px;
+}
+
+.DestinationCard__header--planet-name {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.planet-img-container {
+    width: 300px;
+    height: 300px;
+}
+
+.paragraph {
+    text-align: center;
+    padding: 0px 55px 0px 55px;
+}
+
+
+
 }
