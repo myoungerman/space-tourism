@@ -1,76 +1,89 @@
 .IntroScreen {
-    width: inherit;
-    position: relative;
-}
-
-.IntroScreen__img {
-    position: absolute;
-}
-
-.img--background {
-    width: 2085.04px;
-    height: 954px;
-    mix-blend-mode: screen;
-}
-
+        position: relative;
+        width: inherit;
+  }
 .text-container {
-    width: 450px;
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+  }
+.IntroScreen__text-div {
+        left: 165px;
+        position: relative;
+        top: 387px;
+  }
+.IntroScreen__text--no-top-and-bottom-margin {
+        margin-bottom: 0px;
+        margin-top: 0px;
+  }
+.IntroScreen__large-word {
+        margin-bottom: 24px;
+        margin-top: 24px;
+  }
+.IntroScreen__button {
+        left: 1001px;
+        position: absolute;
+        top: 495px;
+  }
+button {
+        border-radius: 50%;
+        border: none;
+        height: 274px;
+        text-decoration: none;
+        width: 274px;
+  }
+.IntroScreen__button-container {
+        align-items: center;
+        display: flex;
+        height: 274px;
+        justify-content: center;
+        left: 1011px;
+        position: absolute;
+        top: 495px;
+        width: 274px;
+  }
+.IntroScreen__button-container .circle {
+        display: none;
+  }
+.IntroScreen__button-container:hover .circle {
+        background-color: #979797;
+        border-radius: 50%;
+        display: inline-block;
+        height: 400px;
+        opacity: 10.36%;
+        position: absolute;
+        width: 400px;
+        z-index: -1;
+  }
+
+/*//////////////
+Tablet styles
+/////////////*/
+@media screen and (max-width: 768px) {
+.IntroScreen {
     display: flex;
     flex-direction: column;
-}
-
-.IntroScreen__text-div {
-    position: relative;
-    top: 387px;
-    left: 165px;
-}
-
-.IntroScreen__text--no-top-and-bottom-margin {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.IntroScreen__large-word {
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
-
-.IntroScreen__button {
-    position: absolute;
-/*     top: 495px;
-    left: 1001px;
- */}
-
-button {
-    width: 274px;
-    height: 274px;
-    border-radius: 50%;
-    text-decoration: none;
-    border: none;
-}
-
-.IntroScreen__button-container {
-    position: absolute;
-    top: 495px;
-    left: 1011px;
-    width: 274px;
-    height: 274px;
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.IntroScreen__button-container .circle {
-    display: none;
+.IntroScreen div {
+    position: static;
 }
 
-.IntroScreen__button-container:hover .circle {
-    display: inline-block;
-    width: 400px;
-    height: 400px;
-    background-color: #979797;
-    opacity: 10.36%;
-    position: absolute;
-    z-index: -1;
-    border-radius: 50%;
+.text-container p {
+    text-align: center;
+}
+
+.IntroScreen__button-container button, .IntroScreen__button-container span {
+    position: static;
+}
+
+.IntroScreen__text-div {
+    margin-top: 202px;
+}
+
+.IntroScreen__button-container {
+    margin-top: 156px;
+    margin-bottom: 90px;
+}
 }

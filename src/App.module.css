@@ -24,8 +24,24 @@ body {
   margin-left: 166px;
 }
 
-/* .App {
-  background-image: url('https://i.postimg.cc/fLBv9rzG/home-background.png');
-  width: inherit;
+/*//////////////
+Tablet styles
+/////////////*/
+
+@media screen and (max-width: 768px) {
+body {
+  width: 768px;
+  font-size: 16px;
 }
- */
+
+.App__NavBar {
+  margin-left: 39px;
+  margin-top: 0px;
+}
+
+.App__cards {
+  padding-top: 136px;
+  margin-left: 38.5px;
+}
+
+}

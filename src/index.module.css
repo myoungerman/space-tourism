@@ -88,7 +88,13 @@ in case there is an exception (ex. an <h2> element that needs the styling of hea
     transform: scaleX(1);
 }
 
-:global(nav > a):focus {
-  background-color: red;
-  color: red;
+/*//////////////
+Tablet styles
+/////////////*/
+
+@media screen and (max-width: 768px) {
+/* :global(nav > a) {
+  font-size: 0.889rem;
+  letter-spacing: 2.7px;
+} */
 }

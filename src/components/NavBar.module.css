@@ -34,3 +34,30 @@
 .nav--main > a::before {
     bottom: -35px;
 }
+
+/*//////////////
+Tablet styles
+/////////////*/
+
+@media screen and (max-width: 768px) {
+.NavBar {
+    width: 729px;
+}
+
+.line {
+    display: none;
+}
+
+.nav--main {
+    width: 356px;
+    padding: 39px 46px 39px 48px;
+}
+
+.nav--main span {
+    display: none;
+}
+
+.NavBar__star {
+    margin-right: 231px;
+}
+}
