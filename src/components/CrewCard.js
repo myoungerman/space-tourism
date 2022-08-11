@@ -5,7 +5,7 @@ import PageIndicator from "./PageIndicator";
 
 export default function CrewCard(props) {
     return (
-        <main className={props.className}>
+        <main className={`${props.className} ${styles.CrewCard}`}>
             <CardHeader
             number="02"
             title="Meet your crew"
@@ -17,7 +17,7 @@ export default function CrewCard(props) {
                     <p className={`${styles.description} ${styles['CrewCard__description']} blue`}>Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
                     <PageIndicator />
                 </section>
-                <img src="https://i.postimg.cc/qqzRCVhh/douglas-hurley.png"></img>
+                <img src="https://i.postimg.cc/qqzRCVhh/douglas-hurley.png" className={styles.crewImg}></img>
             </div>
         </main>
     )

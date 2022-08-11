@@ -30,3 +30,45 @@
     margin-top: 0px;
     margin-bottom: 120px;
 }
+
+@media screen and (max-width: 768px) {
+.CrewCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.CrewCard__content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 768px;
+}
+
+.CrewCard__text {
+    margin-right: 0px;
+    margin-top: 60px;
+}
+
+.CrewCard__description {
+    margin-bottom: 40px;
+}
+
+.CrewCard h1 {
+    position: relative;
+    left: -187px;
+}
+
+
+.text-container {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.crewImg {
+    margin-top: 40px;
+}
+
+}
