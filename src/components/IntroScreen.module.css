@@ -37,9 +37,9 @@
 
 .IntroScreen__button {
     position: absolute;
-    top: 495px;
+/*     top: 495px;
     left: 1001px;
-}
+ */}
 
 button {
     width: 274px;
@@ -47,13 +47,30 @@ button {
     border-radius: 50%;
     text-decoration: none;
     border: none;
-
-/*     transition: all 1s ease;
-    transform: scale(1); */
 }
 
-/* button:hover {
-    background-color: aqua;
-    transform: scale(1.645);
-} */
+.IntroScreen__button-container {
+    position: absolute;
+    top: 495px;
+    left: 1011px;
+    width: 274px;
+    height: 274px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.IntroScreen__button-container .circle {
+    display: none;
+}
+
+.IntroScreen__button-container:hover .circle {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background-color: #979797;
+    opacity: 10.36%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+}
