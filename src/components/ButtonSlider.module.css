@@ -1,0 +1,44 @@
+.ButtonSlider {
+    display: flex;
+    flex-direction: column;
+    height: 304px;
+    justify-content: space-between;
+}
+
+.numbered-button {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #4e5258;
+    background-color: #11ffee00;
+    color: #FFFFFF;
+}
+
+.numbered-button:active {
+    background-color: #FFFFFF;
+    border: 1px solid #0B0D17;
+    color: #0B0D17;
+}
+
+.numbered-button:hover {
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+/*//////////////
+Tablet styles
+/////////////*/
+
+@media screen and (max-width: 768px) {
+.ButtonSlider {
+    display: flex;
+    flex-direction: row;
+    width: 210px;
+    height: auto;
+    justify-content: space-between;
+}
+
+.numbered-button {
+    width: 60px;
+    height: 60px;
+}
+}

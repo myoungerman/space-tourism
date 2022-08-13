@@ -1,0 +1,109 @@
+.TechCard__content {
+    display: flex;
+}
+
+.intro-text-before-header {
+    font-size: 0.889rem;
+    letter-spacing: 2.7px;
+}
+
+.TechCard__text {
+    margin-left: 80px;
+    margin-top: 137px;
+    width: 470px;
+}
+
+.TechCard__ButtonSlider {
+    margin-top: 137px;
+}
+
+.TechCard__header--main {
+    margin-top: 11px;
+    margin-bottom: 17px;
+}
+
+.TechCard__intro-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.TechCard__description {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.description {
+    width: 444px;
+}
+
+.header {
+    max-width: 470px;
+}
+
+.img {
+    max-width: 515px;
+    object-fit: contain;
+}
+
+.TechCard__img-container {
+    margin-top: 26px;
+    position: static;
+    right: 0;
+    width: 515px;
+    height: 527px;
+}
+
+/*//////////////
+Tablet styles
+/////////////*/
+
+@media screen and (max-width: 768px) {
+.TechCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.TechCard__content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.TechCard__ButtonSlider {
+    margin-top: 426px;
+}
+
+.img {
+    width: 768px;    
+}
+
+.img img {
+    width: 768px;
+    height: 304px;
+    object-fit: cover;
+    object-position: 0 83%;
+}
+
+.TechCard__img-container {
+    position: absolute;
+    margin-top: 60px;
+    width: 768px;
+    height: 310px;
+    left: 0;
+}
+
+.TechCard__text {
+    margin-left: 0px;
+    margin-top: 44px;
+    margin-bottom: 97px;
+}
+
+.TechCard h1 {
+    margin-left: 0px;
+}
+
+.description {
+    line-height: 28px;
+}
+}

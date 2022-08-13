@@ -1,0 +1,63 @@
+.star {
+    width: 48px;
+    height: 48px;
+}
+
+.line {
+    height: 1px;
+    background: #979797;
+    width: 473px;
+    position: relative;
+    left: 30px;
+    z-index: 2;
+}
+
+.NavBar {
+    display: flex;
+    width: 1385px;
+    align-items: center;
+}
+
+.NavBar__star {
+    margin-right: 64px;
+}
+
+.nav--main {
+   width: 542px;
+   display: flex;
+   justify-content: space-between;
+   backdrop-filter: blur(81.5485px);
+   background: rgba(255, 255, 255, 0.04);
+   padding: 39px 165px 38px 123px;
+}
+
+.nav--main > a::before {
+    bottom: -35px;
+}
+
+/*//////////////
+Tablet styles
+/////////////*/
+
+@media screen and (max-width: 768px) {
+.NavBar {
+    width: 729px;
+}
+
+.line {
+    display: none;
+}
+
+.nav--main {
+    width: 356px;
+    padding: 39px 46px 39px 48px;
+}
+
+.nav--main span {
+    display: none;
+}
+
+.NavBar__star {
+    margin-right: 231px;
+}
+}

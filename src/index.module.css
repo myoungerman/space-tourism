@@ -1,0 +1,98 @@
+:global(.heading--1), :global(.heading--2), :global(.heading--3), :global(.heading--4),
+:global(.heading--5), :global(.subheading--1), :global(.subheading--2) {
+  text-transform: uppercase;
+}
+
+:global(.heading--1), :global(.heading--2), :global(.heading--3), :global(.heading--4), :global(.subheading--1) {
+  font-family: 'Bellefair', serif;
+}
+
+/* Instead of adding styles directly to h1, h2, etc, I created these classes
+in case there is an exception (ex. an <h2> element that needs the styling of heading 3)
+*/
+
+:global(.heading--1) {
+  font-size: 8.333rem;
+}
+
+:global(.bold) {
+  font-weight: bold;
+}
+
+:global(.not-bold) {
+  font-weight: normal;
+}
+
+:global(.blue) {
+  color: #D0D6F9;
+}
+
+:global(.grey) {
+  color: #4e5258;
+}
+
+:global(.light-grey) {
+  color: #8d8e96;
+}
+
+:global(.heading--2) {
+  font-size: 5.556rem;
+}
+
+:global(.heading--3) {
+  font-size: 3.111rem;
+}
+
+:global(.heading--4) {
+  font-size: 1.778rem;
+}
+
+:global(.heading--5) {
+  letter-spacing: 4.75px;
+}
+
+:global(.heading--5), :global(.subheading--1) {
+  font-size: 1.556rem;
+}
+
+:global(.subheading--2) {
+  font-size: 0.778rem;
+  letter-spacing: 2.35px;
+}
+
+:global(.img--contain) {
+  object-fit: contain;
+}
+
+:global(nav > a) {
+  font-size: 0.889rem;
+  letter-spacing: 2.7px;
+  position: relative;
+  text-decoration: none;
+}
+
+:global(nav > a)::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  background-color: #979797;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+:global(nav > a):hover::before {
+    transform: scaleX(1);
+}
+
+/*//////////////
+Tablet styles
+/////////////*/
+
+@media screen and (max-width: 768px) {
+:global(nav > a) {
+  font-size: auto;
+}
+}
