@@ -49,7 +49,6 @@ in case there is an exception (ex. an <h2> element that needs the styling of hea
 
 :global(.heading--5) {
   letter-spacing: 4.75px;
-  /* color: #D0D6F9; */
 }
 
 :global(.heading--5), :global(.subheading--1) {

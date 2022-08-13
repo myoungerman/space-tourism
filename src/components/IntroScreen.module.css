@@ -21,9 +21,10 @@
         margin-top: 24px;
   }
 .IntroScreen__button {
-        left: 1001px;
-        position: absolute;
-        top: 495px;
+        /* left: 1001px;
+        top: 495px; */
+        position: relative;
+        z-index: 1;
   }
 button {
         border-radius: 50%;
@@ -45,15 +46,16 @@ button {
 .IntroScreen__button-container .circle {
         display: none;
   }
+
 .IntroScreen__button-container:hover .circle {
         background-color: #979797;
         border-radius: 50%;
         display: inline-block;
         height: 400px;
+        width: 400px;
         opacity: 10.36%;
         position: absolute;
-        width: 400px;
-        z-index: -1;
+        z-index: 0;
   }
 
 /*//////////////

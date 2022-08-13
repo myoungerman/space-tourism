@@ -1,4 +1,8 @@
 
+.App {
+  height: 900px;
+}
+
 body {
   font-size: 18px;
   font-family: 'Barlow Condensed', sans-serif;
@@ -6,11 +10,7 @@ body {
   background-color: #0B0D17;
   width: 1440px;
   margin: 0;
-/*   background-image:
-    url('https://i.postimg.cc/fLBv9rzG/home-background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
- */}
+}
 
 .App__NavBar {
   margin-left: 55px;
@@ -29,6 +29,10 @@ Tablet styles
 /////////////*/
 
 @media screen and (max-width: 768px) {
+.App {
+  height: 1024px;
+}
+
 body {
   width: 768px;
   font-size: 16px;
@@ -42,6 +46,10 @@ body {
 .App__cards {
   padding-top: 136px;
   margin-left: 0px;
+}
+
+.App__IntroScreen {
+  margin-bottom: 131px;
 }
 
 }

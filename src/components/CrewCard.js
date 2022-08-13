@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useMemo } from "react";
 import styles from './CrewCard.module.css';
 import CardHeader from './CardHeader';
 import PageIndicator from "./PageIndicator";
+import data from "../data.json";
 
 export default function CrewCard(props) {
+
+    const crew = useMemo(() => { return data.crew }, []);
+    const [person, setPerson] = React.useState(crew[0]);
+
     return (
         <main className={`${props.className} ${styles.CrewCard}`}>
             <CardHeader
@@ -12,12 +17,12 @@ export default function CrewCard(props) {
             />
             <div className={`${styles['CrewCard__content']}`}>
                 <section className={`${styles['text-container']} ${styles['CrewCard__text']}`}>
-                    <h3 className={`heading--4 not-bold light-grey ${styles['CrewCard__header--secondary']}`}>Commander</h3>
-                    <h2 className={`heading--3 not-bold ${styles['CrewCard__header--main']}`}>Douglas Hurley</h2>
-                    <p className={`${styles.description} ${styles['CrewCard__description']} blue`}>Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
-                    <PageIndicator />
+                    <h3 className={`heading--4 not-bold light-grey ${styles['CrewCard__header--secondary']}`}>{person.role}</h3>
+                    <h2 className={`heading--3 not-bold ${styles['CrewCard__header--main']}`}>{person.name}</h2>
+                    <p className={`${styles.description} ${styles['CrewCard__description']} blue`}>{person.bio}</p>
+                    <PageIndicator setPerson={setPerson} crew={crew} />
                 </section>
-                <img src="https://i.postimg.cc/qqzRCVhh/douglas-hurley.png" className={styles.crewImg}></img>
+                <img src={person.images.png} className={styles.crewImg}></img>
             </div>
         </main>
     )
