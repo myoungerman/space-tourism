@@ -1,3 +1,4 @@
+
 # Frontend Mentor - Space tourism website solution
 
 This is my solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -65,3 +66,4 @@ I still have a lot to learn. Here are some of the areas I want to improve on:
 ### Useful resources
 
 - [Using the public folder](https://create-react-app.dev/docs/using-the-public-folder) - This helped me understand how to store and use my images from the public folder.
+
